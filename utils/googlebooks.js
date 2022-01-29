@@ -10,11 +10,11 @@ module.exports = async (phrase) => {
 
     //return JSON.stringify(results.data);
     let customObject = {
-        data: results.data,  
-        status: results.status,  
-        statusText: results.statusText,  
-        headers: results.headers, 
-        requestHeader: results.config.headers   
+        data: results.data,
+        status: results.status,
+        statusText: results.statusText,
+        headers: results.headers,
+        requestHeader: results.config.headers
     }
     return customObject;
 }
