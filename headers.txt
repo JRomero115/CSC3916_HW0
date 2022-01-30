@@ -1,0 +1,47 @@
+headers.txt: What is the content-type and what does it mean?
+
+-- Request Headers --
+> User-Agent identifies the application/operating system/version requesting content (fingerprint of user).
+  Postman is the application and 7.29.0 is the version running that is requesting content.
+User-Agent: PostmanRuntime/7.29.0
+> Accept tells the client what media will be acceptable through media-types.
+  */* means this client is accepting any media-types.
+Accept: */*
+> Tokens are a part of the authentication process that is sent to the user to allow access.
+  Postman is sending a custom token.
+Postman-Token: 9ca91717-7bbc-45b2-abfa-d9fa594c8043
+> Host identifies the client/server that the request is being sent from.
+Host: www.googleapis.com
+> Accept-Encoding tells the server which encoding content is supported.
+Accept-Encoding: gzip, deflate, br
+> Connection controls requests and network connection -- can be either "keep-alive" or "close".
+  The connection is keep-alive which is a persistent connection allowing multiple requests/responses.
+Connection: keep-alive
+
+-- Response Headers --
+> Content-Type identifies the original media type.
+Content-Type: application/json; charset=UTF-8
+> Vary headers tell cache what request headers affect response.
+Vary: Origin
+Vary: X-Origin
+Vary: Referer
+> Content-Encoding tells the client which choice of encoding.
+Content-Encoding: gzip
+> Date shows the day, month, year, and time (timestamp) of request/response.
+Date: Sat, 29 Jan 2022 04:58:41 GMT
+> Server tells information about server and client connection.
+  ESF = Enterprise Server and Directory Server access.
+Server: ESF
+> Cache-Control tells browsers caching behavior and policies -- can be either "private" or "public".
+Cache-Control: private
+> X-XSS-Protection prevents XSS attacks.
+  0 disables XSS protection.
+X-XSS-Protection: 0
+> X-Frame-Options prevents clickjacking attacks -- tells browser what to render.
+X-Frame-Options: SAMEORIGIN
+> X-Content-Type-Options tells server which media-types to use -- preventing MIME attacks.
+X-Content-Type-Options: nosniff
+> Alt-Svc tells client about alernative service.
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+> Transfer-Encoding breaks the response into smaller parts.
+Transfer-Encoding: chunked
