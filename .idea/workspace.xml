@@ -16,6 +16,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -172,6 +173,7 @@
       <workItem from="1642902502108" duration="306000" />
       <workItem from="1643433516583" duration="839000" />
       <workItem from="1643515263552" duration="5324000" />
+      <workItem from="1644098740267" duration="131000" />
     </task>
     <task id="LOCAL-00001" summary="2022 updates">
       <created>1642902521793</created>
@@ -194,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643570784527</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Header definitions">
+      <created>1644098750511</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1644098750511</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
